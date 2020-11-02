@@ -1,0 +1,374 @@
+
+
+
+=========++after git config --global user.email "h19slcc02864@outlook.com"
+2:54 AM 11/2/2020 still h19sl@desktop doesn't show documents
+
+
+h19SL@DESKTOP-A22L06V MINGW64 /
+$ ls
+bin/  etc/           LICENSE.txt  ReleaseNotes.html  unins001.exe*
+cmd/  git-bash.exe*  mingw64/     tmp/               unins001.msg
+dev/  git-cmd.exe*   proc/        unins001.dat       usr/
+
+h19SL@DESKTOP-A22L06V MINGW64 /
+.....=VSCode git bash shows documents and commits changes..............
+
+
+
+h19SL@DESKTOP-A22L06V MINGW64 ~
+$ ls
+'3D Objects'            ntuser.dat.LOG2
+ AppData                NTUSER.DAT{344d2a38-eac7-11ea-aa5f-5c3a45d9eb68}.TxR.0.regtrans-ms
+'Application Data'      NTUSER.DAT{344d2a38-eac7-11ea-aa5f-5c3a45d9eb68}.TxR.1.regtrans-ms
+ ChromeSetup.exe        NTUSER.DAT{344d2a38-eac7-11ea-aa5f-5c3a45d9eb68}.TxR.2.regtrans-ms
+ Contacts               NTUSER.DAT{344d2a38-eac7-11ea-aa5f-5c3a45d9eb68}.TxR.blf
+ Cookies                NTUSER.DAT{344d2a39-eac7-11ea-aa5f-5c3a45d9eb68}.TM.blf
+ Desktop                NTUSER.DAT{344d2a39-eac7-11ea-aa5f-5c3a45d9eb68}.TMContainer00000000000000000001.regtrans-ms
+ Documents              NTUSER.DAT{344d2a39-eac7-11ea-aa5f-5c3a45d9eb68}.TMContainer00000000000000000002.regtrans-ms
+ Downloads              ntuser.ini
+ Favorites              OneDrive
+ Links                  Pictures
+'Local Settings'        PrintHood
+ MicrosoftEdgeBackups   Recent
+ Music                 'Saved Games'
+'My Documents'          Searches
+ MyDwnlds               SendTo
+ NetHood               'Start Menu'
+ NTUSER.DAT             Templates
+ ntuser.dat.LOG1        Videos
+
+h19SL@DESKTOP-A22L06V MINGW64 ~
+$ cd Documents
+
+h19SL@DESKTOP-A22L06V MINGW64 ~/Documents
+$ ls
+ 1imp   1ToDo   AllPrograms  'Custom Office Templates'   desktop.ini  'McAfee Vaults'  'My Music'  'My Pictures'  'My Videos'  
+
+h19SL@DESKTOP-A22L06V MINGW64 ~/Documents
+$ cd AllPrograms
+
+h19SL@DESKTOP-A22L06V MINGW64 ~/Documents/AllPrograms
+$ cd practice
+
+h19SL@DESKTOP-A22L06V MINGW64 ~/Documents/AllPrograms/practice
+$ ls
+LCpractice  vscPractice
+
+h19SL@DESKTOP-A22L06V MINGW64 ~/Documents/AllPrograms/practice
+$ cd LCpractice
+
+h19SL@DESKTOP-A22L06V MINGW64 ~/Documents/AllPrograms/practice/LCpractice (masster)
+$ ls
+LC-DOM-Basics  LC-Fetch-JSON-Basics  LC-Form-Basics  LC-Other-DOM-Events
+
+h19SL@DESKTOP-A22L06V MINGW64 ~/Documents/AllPrograms/practice/LCpractice (masster)
+$ git clone https://github.com/HannahMoses/LC-DOM-Methodology.git
+Cloning into 'LC-DOM-Methodology'...
+remote: Enumerating objects: 23, done.
+remote: Counting objects: 100% (23/23), done.
+remote: Compressing objects: 100% (15/15), done.
+remote: Total 23 (delta 8), reused 18 (delta 6), pack-reused 0
+Receiving objects: 100% (23/23), 7.90 KiB | 1.58 MiB/s, done.
+Resolving deltas: 100% (8/8), done.
+
+h19SL@DESKTOP-A22L06V MINGW64 ~/Documents/AllPrograms/practice/LCpractice (masster)
+$ git status
+On branch masster
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   LC-DOM-Basics
+        new file:   LC-Fetch-JSON-Basics
+        new file:   LC-Form-Basics
+        new file:   LC-Other-DOM-Events
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   LC-DOM-Basics (modified content)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        LC-DOM-Methodology/
+
+
+h19SL@DESKTOP-A22L06V MINGW64 ~/Documents/AllPrograms/practice/LCpractice (masster)
+$ git add .
+warning: adding embedded git repository: LC-DOM-Methodology
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint: 
+hint:   git submodule add <url> LC-DOM-Methodology
+hint: 
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint: 
+hint:   git rm --cached LC-DOM-Methodology
+hint: 
+hint: See "git help submodule" for more information.
+
+h19SL@DESKTOP-A22L06V MINGW64 ~/Documents/AllPrograms/practice/LCpractice (masster)
+$ git commit -m "commit LC-DOM-Methodology"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'h19SL@DESKTOP-A22L06V.(none)')
+
+h19SL@DESKTOP-A22L06V MINGW64 ~/Documents/AllPrograms/practice/LCpractice (masster)
+$ git config --global user.email "h19slcc02864@outlook.com"
+
+h19SL@DESKTOP-A22L06V MINGW64 ~/Documents/AllPrograms/practice/LCpractice (masster)
+$ git config --global user.name "Hnp Mung"
+
+h19SL@DESKTOP-A22L06V MINGW64 ~/Documents/AllPrograms/practice/LCpractice (masster)
+$ git status
+On branch masster
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   LC-DOM-Basics
+        new file:   LC-DOM-Methodology
+        new file:   LC-Fetch-JSON-Basics
+        new file:   LC-Form-Basics
+        new file:   LC-Other-DOM-Events
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   LC-DOM-Basics (modified content)
+
+
+h19SL@DESKTOP-A22L06V MINGW64 ~/Documents/AllPrograms/practice/LCpractice (masster)
+$ git add .
+
+h19SL@DESKTOP-A22L06V MINGW64 ~/Documents/AllPrograms/practice/LCpractice (masster)
+$ git status
+On branch masster
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   LC-DOM-Basics
+        new file:   LC-DOM-Methodology
+        new file:   LC-Fetch-JSON-Basics
+        new file:   LC-Form-Basics
+        new file:   LC-Other-DOM-Events
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   LC-DOM-Basics (modified content)
+
+
+h19SL@DESKTOP-A22L06V MINGW64 ~/Documents/AllPrograms/practice/LCpractice (masster)
+$ git add ..
+fatal: ..: '..' is outside repository at 'C:/Users/h19SL/Documents/AllPrograms/practice/LCpractice'
+
+h19SL@DESKTOP-A22L06V MINGW64 ~/Documents/AllPrograms/practice/LCpractice (masster)
+$ git add LC-DOM-Basics
+
+h19SL@DESKTOP-A22L06V MINGW64 ~/Documents/AllPrograms/practice/LCpractice (masster)
+$ git status
+On branch masster
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   LC-DOM-Basics
+        new file:   LC-DOM-Methodology
+        new file:   LC-Fetch-JSON-Basics
+        new file:   LC-Form-Basics
+        new file:   LC-Other-DOM-Events
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   LC-DOM-Basics (modified content)
+
+
+h19SL@DESKTOP-A22L06V MINGW64 ~/Documents/AllPrograms/practice/LCpractice (masster)
+$ git commit -m "tried 2commit after config user email name"
+[masster (root-commit) 565fce0] tried 2commit after config user email name
+ 5 files changed, 5 insertions(+)
+ create mode 160000 LC-DOM-Basics
+ create mode 160000 LC-DOM-Methodology
+ create mode 160000 LC-Fetch-JSON-Basics
+ create mode 160000 LC-Form-Basics
+ create mode 160000 LC-Other-DOM-Events
+
+h19SL@DESKTOP-A22L06V MINGW64 ~/Documents/AllPrograms/practice/LCpractice (masster)
+$ git status
+On branch masster
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   LC-DOM-Basics (modified content)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+h19SL@DESKTOP-A22L06V MINGW64 ~/Documents/AllPrograms/practice/LCpractice (masster)
+$ git add .
+
+h19SL@DESKTOP-A22L06V MINGW64 ~/Documents/AllPrograms/practice/LCpractice (masster)
+$ git status
+On branch masster
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   LC-DOM-Basics (modified content)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+h19SL@DESKTOP-A22L06V MINGW64 ~/Documents/AllPrograms/practice/LCpractice (masster)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+h19SL@DESKTOP-A22L06V MINGW64 ~/Documents/AllPrograms/practice/LCpractice (masster)
+$ git add .
+
+h19SL@DESKTOP-A22L06V MINGW64 ~/Documents/AllPrograms/practice/LCpractice (masster)
+$ git commit -m "commit after git add LC-DOM-Basics"
+On branch masster
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   LC-DOM-Basics (modified content)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+h19SL@DESKTOP-A22L06V MINGW64 ~/Documents/AllPrograms/practice/LCpractice (masster)
+$ ls
+LC-DOM-Basics  LC-DOM-Methodology  LC-Fetch-JSON-Basics  LC-Form-Basics  LC-Other-DOM-Events
+
+h19SL@DESKTOP-A22L06V MINGW64 ~/Documents/AllPrograms/practice/LCpractice (masster)
+$
+
+
+
+
+=========================++++++++++++++=======
+h19SL@DESKTOP-A22L06V MINGW64 ~
+$ ls
+'3D Objects'            ntuser.dat.LOG2
+ AppData                NTUSER.DAT{344d2a38-eac7-11ea-aa5f-5c3a45d9eb68}.TxR.0.regtrans-ms
+'Application Data'      NTUSER.DAT{344d2a38-eac7-11ea-aa5f-5c3a45d9eb68}.TxR.1.regtrans-ms
+ ChromeSetup.exe        NTUSER.DAT{344d2a38-eac7-11ea-aa5f-5c3a45d9eb68}.TxR.2.regtrans-ms
+ Contacts               NTUSER.DAT{344d2a38-eac7-11ea-aa5f-5c3a45d9eb68}.TxR.blf
+ Cookies                NTUSER.DAT{344d2a39-eac7-11ea-aa5f-5c3a45d9eb68}.TM.blf
+ Desktop                NTUSER.DAT{344d2a39-eac7-11ea-aa5f-5c3a45d9eb68}.TMContainer00000000000000000001.regtrans-ms
+ Documents              NTUSER.DAT{344d2a39-eac7-11ea-aa5f-5c3a45d9eb68}.TMContainer00000000000000000002.regtrans-ms
+ Downloads              ntuser.ini
+ Favorites              OneDrive
+ Links                  Pictures
+'Local Settings'        PrintHood
+ MicrosoftEdgeBackups   Recent
+ Music                 'Saved Games'
+'My Documents'          Searches
+ MyDwnlds               SendTo
+ NetHood               'Start Menu'
+ NTUSER.DAT             Templates
+ ntuser.dat.LOG1        Videos
+
+h19SL@DESKTOP-A22L06V MINGW64 ~
+$ cd Documents
+
+h19SL@DESKTOP-A22L06V MINGW64 ~/Documents
+$ ls
+ 1imp   1ToDo   AllPrograms  'Custom Office Templates'   desktop.ini  'McAfee Vaults'  'My Music'  'My Pictures'  'My Videos'  
+
+h19SL@DESKTOP-A22L06V MINGW64 ~/Documents
+$ cd AllPrograms
+
+h19SL@DESKTOP-A22L06V MINGW64 ~/Documents/AllPrograms
+$ ls
+Launch-Checklist-Form  practice
+
+h19SL@DESKTOP-A22L06V MINGW64 ~/Documents/AllPrograms
+$ cd LCpractice
+bash: cd: LCpractice: No such file or directory
+
+h19SL@DESKTOP-A22L06V MINGW64 ~/Documents/AllPrograms
+$ cd practice
+
+h19SL@DESKTOP-A22L06V MINGW64 ~/Documents/AllPrograms/practice
+$ cd LCpractice
+
+h19SL@DESKTOP-A22L06V MINGW64 ~/Documents/AllPrograms/practice/LCpractice (masster)
+$ ls
+LC-DOM-Basics  LC-Fetch-JSON-Basics  LC-Form-Basics  LC-Other-DOM-Events
+
+h19SL@DESKTOP-A22L06V MINGW64 ~/Documents/AllPrograms/practice/LCpractice (masster)
+$ cd LC-DOM-Basics
+
+h19SL@DESKTOP-A22L06V MINGW64 ~/Documents/AllPrograms/practice/LCpractice/LC-DOM-Basics (main)
+$ ls
+README.md
+
+h19SL@DESKTOP-A22L06V MINGW64 ~/Documents/AllPrograms/practice/LCpractice/LC-DOM-Basics (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+h19SL@DESKTOP-A22L06V MINGW64 ~/Documents/AllPrograms/practice/LCpractice/LC-DOM-Basics (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+h19SL@DESKTOP-A22L06V MINGW64 ~/Documents/AllPrograms/practice/LCpractice/LC-DOM-Basics (main)
+$ git add .
+
+h19SL@DESKTOP-A22L06V MINGW64 ~/Documents/AllPrograms/practice/LCpractice/LC-DOM-Basics (main)
+$ git commit -m "testing if commit works"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'h19SL@DESKTOP-A22L06V.(none)')
+
+h19SL@DESKTOP-A22L06V MINGW64 ~/Documents/AllPrograms/practice/LCpractice/LC-DOM-Basics (main)
+$

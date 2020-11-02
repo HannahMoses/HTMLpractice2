@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hannah first vscode file2020oct30</title>
+</head>
+<body>
+  <div>
+<ul>
+  <li>Church</li>
+  <li>Kids</li>
+  <li> Job</li>
+  <li>Finanaces</li>
+  <li>Tech</li>
+
+<div class="myDay">
+
+  <input type="button" id="routine" class="chores">
+</div>
+
+</ul>
+
+
+  </div>
+</body>
+</html>
